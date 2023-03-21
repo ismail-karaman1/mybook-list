@@ -1,0 +1,45 @@
+
+
+.book-create {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+  }
+  
+  .book-create h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .book-create form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book-create label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .book-create .form-control {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .book-create .btn-primary {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .book-create .btn-primary:hover {
+    background-color: #0062cc;
+  }
+  
