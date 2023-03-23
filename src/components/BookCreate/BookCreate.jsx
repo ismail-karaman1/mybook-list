@@ -16,7 +16,7 @@ const BookCreate = ({onCreate}) => {
     }
 
   return (
-    <div className="book-create"> {/* BookCreate bileşenine 'book-create' classını atadık */}
+    <div className="book-create">
         <h3>Add a Book</h3>
         <form onSubmit={handleSubmit}>
             <div className="form-group">
